@@ -68,14 +68,14 @@ public class MainActivity extends AppCompatActivity {
 
     public List<Persona> create10People() {
         ArrayList<Persona> lista = new ArrayList<>();
-        lista.add(new Persona("123005"));
-        lista.add(new Persona("234014"));
-        lista.add(new Persona("964373"));
-        lista.add(new Persona("568672"));
-        lista.add(new Persona("868761"));
-        lista.add(new Persona("658760"));
-        lista.add(new Persona("756865"));
-        lista.add(new Persona("353410"));
+        lista.add(new Persona("12300505"));
+        lista.add(new Persona("23401414"));
+        lista.add(new Persona("96437373"));
+        lista.add(new Persona("56867272"));
+        lista.add(new Persona("86876161"));
+        lista.add(new Persona("65876060"));
+        lista.add(new Persona("75686565"));
+        lista.add(new Persona("35341010"));
         return lista;
     }
 

@@ -31,7 +31,7 @@ public class BlankFragment extends Fragment {
         binding.button.setOnClickListener(view -> {
             Toast.makeText(container.getContext(), "Un toast desde el fragmento",
                     Toast.LENGTH_LONG).show();
-            String s = binding.editTextName.getText().toString();
+            String s = binding.editTextDni.getText().toString();
 
             mainActivityViewModel.getTexto().setValue(s);
         });
